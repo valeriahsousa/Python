@@ -1,0 +1,20 @@
+'''
+Nome do projeto: Distancia de um raio
+Autor: Valéria
+
+'''
+
+#-*- coding: utf-8 -*utf-
+import os
+import time
+import sys
+
+distancia = 0
+tempo = 0
+
+print('*** Vamos calcular a distancia de um raio! ***\n')
+tempo = int (input('Digite o tempo:\n'))
+distancia = (tempo*340)
+print('A distancia do raio é:', distancia)
+
+sys.exit
